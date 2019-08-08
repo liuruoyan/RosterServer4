@@ -1,0 +1,11 @@
+{
+  "rosterServer4App": {
+    "BloodType": {
+      "null": "",
+      "A": "A",
+      "B": "B",
+      "O": "O",
+      "AB": "AB"
+    }
+  }
+}

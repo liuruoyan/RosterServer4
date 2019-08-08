@@ -14,6 +14,63 @@
     <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010407_added_entity_Employee.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010408_added_entity_EnumEmpStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010409_added_entity_EnumIdType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010410_added_entity_EnumContractType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010411_added_entity_EnumEmpType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010412_added_entity_EnumGender.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010413_added_entity_Contract.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010414_added_entity_Personal.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010415_added_entity_EnumAccountType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010416_added_entity_EnumHighestEducation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010417_added_entity_EnumPoliticsStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010418_added_entity_EnumMaritalStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010419_added_entity_SocialSecurityBenefits.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010420_added_entity_EnumPfType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010421_added_entity_EnumPfStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010422_added_entity_EnumPfPayScheme.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010423_added_entity_EnumSsPayScheme.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010424_added_entity_EnumSsStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010425_added_entity_EnumEmpLaborType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010426_added_entity_EnumEmpTaxerType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010427_added_entity_EnumEmpTaxArea.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010428_added_entity_PayCard.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010429_added_entity_Dimission.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010430_added_entity_EnumDimissionType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010431_added_entity_WorkExperience.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010432_added_entity_EducationExperience.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010433_added_entity_EnumEducation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010434_added_entity_DirectSupervisor.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010435_added_entity_AdditionalPost.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20190808010407_added_entity_constraints_Employee.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010408_added_entity_constraints_EnumEmpStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010409_added_entity_constraints_EnumIdType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010410_added_entity_constraints_EnumContractType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010411_added_entity_constraints_EnumEmpType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010412_added_entity_constraints_EnumGender.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010413_added_entity_constraints_Contract.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010414_added_entity_constraints_Personal.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010415_added_entity_constraints_EnumAccountType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010416_added_entity_constraints_EnumHighestEducation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010417_added_entity_constraints_EnumPoliticsStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010418_added_entity_constraints_EnumMaritalStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010419_added_entity_constraints_SocialSecurityBenefits.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010420_added_entity_constraints_EnumPfType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010421_added_entity_constraints_EnumPfStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010422_added_entity_constraints_EnumPfPayScheme.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010423_added_entity_constraints_EnumSsPayScheme.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010424_added_entity_constraints_EnumSsStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010425_added_entity_constraints_EnumEmpLaborType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010426_added_entity_constraints_EnumEmpTaxerType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010427_added_entity_constraints_EnumEmpTaxArea.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010428_added_entity_constraints_PayCard.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010429_added_entity_constraints_Dimission.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010430_added_entity_constraints_EnumDimissionType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010431_added_entity_constraints_WorkExperience.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010432_added_entity_constraints_EducationExperience.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010434_added_entity_constraints_DirectSupervisor.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190808010435_added_entity_constraints_AdditionalPost.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
